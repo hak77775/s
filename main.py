@@ -236,3 +236,4 @@ def keep_alive():
     t2.start()
 
 keep_alive()
+pip freeze > requirements.txt
