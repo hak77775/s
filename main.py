@@ -238,3 +238,5 @@ def keep_alive():
 keep_alive()
 pip freeze > requirements.txt
 pip freeze > requirements.txt
+python-telegram-bot==13.7
+requests==2.25.1
