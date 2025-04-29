@@ -92,7 +92,7 @@ def help_message(message):
 # Ответ на все остальные сообщения
 @bot.message_handler(func=lambda message: True)
 def default_response(message):
-    bot.reply_to(message, "Пожалуйста, выбери одну из опций в меню.")
+    bot.reply_to(message, "Пожалуйста, выбери одну из опций в меню."#
 
 # Flask-сервер для Railway
 app = Flask(__name__)
